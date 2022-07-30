@@ -1,0 +1,12 @@
+Store: Contains the State of the Application
+Slice: contains feature of the application
+ - Reducer: controls the state of the slice 
+action creators - functions that return an action object
+whatever is returned from the reducer will be the new state
+
+Reducers hooks: 
+ useSelector can be used to get the state from the store
+ useDispatch can be used to dispatch an action to the reducer of the slice
+
+createAsyncThunk - creates a thunk that can be used to perform async actions
+createAsyncThunk takes in the name of the action, the function that performs the async action,
